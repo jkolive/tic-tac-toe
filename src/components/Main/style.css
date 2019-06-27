@@ -13,11 +13,6 @@ ol, ul {
     display: table;
 }
 
-.status {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .square {
     background: #fff;
     border: 1px solid #999;
@@ -42,11 +37,15 @@ ol, ul {
 }
 
 .game-board {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
 .game-info {
-    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
